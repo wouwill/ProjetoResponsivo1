@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- lincar dependências dentro do head -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header id="top">
+        <section class="top">
+            <h1>Atividade de Introdução - HTML & CSS.</h1>
+            <h2>Curso de Desenvolvimento Web com PHP e Banco de Dados MySQL.</h2>
+        </section>
+    </header>
+
+    <!-- formulário de login -->
+    <main id="container">
+        <div class="formLogin">
+            <img src="usuario.jpeg" alt="Imagem do Usuário" title="Imagem do Usuário!" class="imgUser">
+            <form action="" method="">
+                <label>Seu E-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu E-mail aqui..." class="campForm">
+                <br>
+                <label>Sua senha:</label>
+                <input type="password" name="senha" placeholder="Digite sua senha aqui..." class="campForm">
+                <br>
+                <div class="alignBtn">
+                    <button name="btnAcessar" class="btnLogin">Acessar</button>
+                </div>
+            </form>
+        </div>
+
+
+        <!-- formulário de cadastro -->
+        <div class="formCadastro">
+            <h3>Realize seu cadastro aqui:</h3>
+            <form action="" method="">
+                <label>Digite seu nome completo:</label>
+                <input type="text" name="nomeCompleto" placeholder="Digite seu nome completo aqui..." class="campForm">
+                <br>
+                <label>Informe sua idade:</label>
+                <input type="number" name="idade" placeholder="Digite sua idade aqui..." class="campForm">
+                <br>
+                <label>Informe sua data de nascimento:</label>
+                <input type="date" name="dataNascimento" placeholder="Digite sua data de nascimento aqui..."
+                    class="campForm">
+                <br>
+                <label>Seu celular (WhatsApp):</label>
+                <input type="tel" name="numeroCelular" placeholder="Digite sua número de celular aqui..."
+                    class="campForm">
+                <br>
+                <!-- campo selecionável -->
+                <label>Selecione sua cidade:</label>
+                <select class="campForm">
+                    <option>Selecione</option>
+                    <option>Londrina</option>
+                    <option>Cambé</option>
+                    <option>Ibiporã</option>
+                </select>
+                <br>
+
+                <label>Digite seu E-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu E-mail aqui..." class="campForm">
+                <br>
+                <label>Digite uma senha:</label>
+                <input type="password" name="senha" placeholder="Digite a senha aqui..." class="campForm">
+                <br>
+                <label>Digite novamente sua senha:</label>
+                <input type="password" name="repSenha" placeholder="Digite sua senha aqui..." class="campForm">
+                <br>
+                <div class="alignBtn">
+                    <button name="btnCadastro" class="btnCadastro">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <footer id="end">
+        <section class="end">
+            <span>Copyright 2023 - Todos os direitos reservados.</span>
+        </section>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+/* case ou servidor de variáveis do CSS */
+:root {
+    --cor-preto: #000000;
+    --cor-branco: #ffffff;
+    --cor-cinza: #e5e5e5;
+    --cor-azul: #1a72ed;
+    --font-tahoma: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
